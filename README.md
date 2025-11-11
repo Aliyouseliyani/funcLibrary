@@ -21,14 +21,15 @@ All functions are implemented using basic Python logic (loops, ASCII checks, sli
 🚀 Installation
 
 Once you upload to PyPI, users will install with:
-
-pip install pystringlite
-
-
-(Replace name with your real PyPI package name)
+```bash
+pip install funcLibrary
+```
 
 📚 Usage Example
-import pystringlite as psl
+```python
+
+
+import funcLibrary.string_methods as psl
 
 print(psl.capitalize("hello"))           # Hello
 print(psl.count("lo", "hello world"))    # 1
@@ -40,9 +41,8 @@ print(psl.isupper("HELLO"))              # True
 print(psl.replace("lo", "L0", "hello", 1)) # heL0o
 print(psl.rstrip("hello   "))            # "hello"
 print(psl.lstrip("   hello"))            # "hello"
-print(psl.rsplit("a-b-c", "-"))          # ['a', 'b', 'c']
 print(psl.swapcase("Hello"))             # hELLO
-
+```
 🎯 Why This Library?
 
 Python's built-in string methods are optimized and complex inside CPython.

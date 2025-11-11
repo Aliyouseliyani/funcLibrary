@@ -1,3 +1,4 @@
 /venv
 /dist
+/funcLibrary.egg-info
 pyproject.toml
