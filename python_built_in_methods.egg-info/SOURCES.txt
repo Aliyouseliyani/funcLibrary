@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+funcLibrary/__init__.py
+funcLibrary/string_methods.py
+python_built_in_methods.egg-info/PKG-INFO
+python_built_in_methods.egg-info/SOURCES.txt
+python_built_in_methods.egg-info/dependency_links.txt
+python_built_in_methods.egg-info/top_level.txt
+tests/test_string_methods.py
