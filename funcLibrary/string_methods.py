@@ -49,8 +49,9 @@ def endswith(end_word, string):
             bool: True if `string` ends with `end_word`, False otherwise.
         """
 
-    string_end_word = list(string)[-len(end_word):]
-    if str(string_end_word) == end_word:
+    string_end_word = string[-len(end_word):]
+
+    if string_end_word == end_word:
         return True
     return False
 
@@ -107,6 +108,7 @@ def index(index_word, string, start_index=0, end_index=None):
                     return x + start_index
 
     raise ValueError("substring not found")
+
 
 
 def isdigit(string):
