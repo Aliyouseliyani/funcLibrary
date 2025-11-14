@@ -57,5 +57,3 @@ This project:
 These functions are not meant to replace Python’s built-ins for performance — this is an educational project.
 
 But hey, you're free to benchmark and compare 😉
-
-You already imported perf_counter — maybe later add a bench.py to compare your
